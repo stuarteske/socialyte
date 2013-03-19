@@ -41,6 +41,7 @@
 		983CA49316F82AFD00E2723F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */; };
 		983CA49516F82BF200E2723F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA49416F82BF200E2723F /* iAd.framework */; };
 		983CA49616F82C5300E2723F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA47A16F8235E00E2723F /* Accounts.framework */; };
+		983DEF5316F8B2E0001A5FA8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DEF5216F8B2E0001A5FA8 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		983CA48916F82AFD00E2723F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		983CA49416F82BF200E2723F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		983DEF5116F8B2E0001A5FA8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		983DEF5216F8B2E0001A5FA8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +190,8 @@
 				983CA44316F820D000E2723F /* AppDelegate.h */,
 				983CA44416F820D000E2723F /* AppDelegate.m */,
 				983CA44C16F820D000E2723F /* MainStoryboard.storyboard */,
+				983DEF5116F8B2E0001A5FA8 /* LoginViewController.h */,
+				983DEF5216F8B2E0001A5FA8 /* LoginViewController.m */,
 				983CA44F16F820D000E2723F /* ViewController.h */,
 				983CA45016F820D000E2723F /* ViewController.m */,
 				983CA43B16F820D000E2723F /* Supporting Files */,
@@ -354,6 +359,7 @@
 				983CA44116F820D000E2723F /* main.m in Sources */,
 				983CA44516F820D000E2723F /* AppDelegate.m in Sources */,
 				983CA45116F820D000E2723F /* ViewController.m in Sources */,
+				983DEF5316F8B2E0001A5FA8 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

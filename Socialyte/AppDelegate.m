@@ -22,6 +22,12 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+// code from integrate Facebook into iOS (Parse)
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
+}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
