@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983CA43516F820D000E2723F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA43416F820D000E2723F /* UIKit.framework */; };
+		983CA43716F820D000E2723F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA43616F820D000E2723F /* Foundation.framework */; };
+		983CA43916F820D000E2723F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA43816F820D000E2723F /* CoreGraphics.framework */; };
+		983CA43F16F820D000E2723F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983CA43D16F820D000E2723F /* InfoPlist.strings */; };
+		983CA44116F820D000E2723F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983CA44016F820D000E2723F /* main.m */; };
+		983CA44516F820D000E2723F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983CA44416F820D000E2723F /* AppDelegate.m */; };
+		983CA44716F820D000E2723F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 983CA44616F820D000E2723F /* Default.png */; };
+		983CA44916F820D000E2723F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983CA44816F820D000E2723F /* Default@2x.png */; };
+		983CA44B16F820D000E2723F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983CA44A16F820D000E2723F /* Default-568h@2x.png */; };
+		983CA44E16F820D000E2723F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983CA44C16F820D000E2723F /* MainStoryboard.storyboard */; };
+		983CA45116F820D000E2723F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983CA45016F820D000E2723F /* ViewController.m */; };
+		983CA45916F820D000E2723F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA45816F820D000E2723F /* SenTestingKit.framework */; };
+		983CA45A16F820D000E2723F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA43416F820D000E2723F /* UIKit.framework */; };
+		983CA45B16F820D000E2723F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA43616F820D000E2723F /* Foundation.framework */; };
+		983CA46316F820D000E2723F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983CA46116F820D000E2723F /* InfoPlist.strings */; };
+		983CA46616F820D000E2723F /* SocialyteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983CA46516F820D000E2723F /* SocialyteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983CA45C16F820D000E2723F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983CA42916F820D000E2723F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983CA43016F820D000E2723F;
+			remoteInfo = Socialyte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983CA43116F820D000E2723F /* Socialyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983CA43416F820D000E2723F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		983CA43616F820D000E2723F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		983CA43816F820D000E2723F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		983CA43C16F820D000E2723F /* Socialyte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Socialyte-Info.plist"; sourceTree = "<group>"; };
+		983CA43E16F820D000E2723F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983CA44016F820D000E2723F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		983CA44216F820D000E2723F /* Socialyte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Socialyte-Prefix.pch"; sourceTree = "<group>"; };
+		983CA44316F820D000E2723F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		983CA44416F820D000E2723F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		983CA44616F820D000E2723F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		983CA44816F820D000E2723F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		983CA44A16F820D000E2723F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		983CA44D16F820D000E2723F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		983CA44F16F820D000E2723F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		983CA45016F820D000E2723F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		983CA45716F820D000E2723F /* SocialyteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialyteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983CA45816F820D000E2723F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		983CA46016F820D000E2723F /* SocialyteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialyteTests-Info.plist"; sourceTree = "<group>"; };
+		983CA46216F820D000E2723F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983CA46416F820D000E2723F /* SocialyteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialyteTests.h; sourceTree = "<group>"; };
+		983CA46516F820D000E2723F /* SocialyteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialyteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983CA42E16F820D000E2723F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA43516F820D000E2723F /* UIKit.framework in Frameworks */,
+				983CA43716F820D000E2723F /* Foundation.framework in Frameworks */,
+				983CA43916F820D000E2723F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983CA45316F820D000E2723F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA45916F820D000E2723F /* SenTestingKit.framework in Frameworks */,
+				983CA45A16F820D000E2723F /* UIKit.framework in Frameworks */,
+				983CA45B16F820D000E2723F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983CA42816F820D000E2723F = {
+			isa = PBXGroup;
+			children = (
+				983CA43A16F820D000E2723F /* Socialyte */,
+				983CA45E16F820D000E2723F /* SocialyteTests */,
+				983CA43316F820D000E2723F /* Frameworks */,
+				983CA43216F820D000E2723F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983CA43216F820D000E2723F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983CA43116F820D000E2723F /* Socialyte.app */,
+				983CA45716F820D000E2723F /* SocialyteTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983CA43316F820D000E2723F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983CA43416F820D000E2723F /* UIKit.framework */,
+				983CA43616F820D000E2723F /* Foundation.framework */,
+				983CA43816F820D000E2723F /* CoreGraphics.framework */,
+				983CA45816F820D000E2723F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983CA43A16F820D000E2723F /* Socialyte */ = {
+			isa = PBXGroup;
+			children = (
+				983CA44316F820D000E2723F /* AppDelegate.h */,
+				983CA44416F820D000E2723F /* AppDelegate.m */,
+				983CA44C16F820D000E2723F /* MainStoryboard.storyboard */,
+				983CA44F16F820D000E2723F /* ViewController.h */,
+				983CA45016F820D000E2723F /* ViewController.m */,
+				983CA43B16F820D000E2723F /* Supporting Files */,
+			);
+			path = Socialyte;
+			sourceTree = "<group>";
+		};
+		983CA43B16F820D000E2723F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983CA43C16F820D000E2723F /* Socialyte-Info.plist */,
+				983CA43D16F820D000E2723F /* InfoPlist.strings */,
+				983CA44016F820D000E2723F /* main.m */,
+				983CA44216F820D000E2723F /* Socialyte-Prefix.pch */,
+				983CA44616F820D000E2723F /* Default.png */,
+				983CA44816F820D000E2723F /* Default@2x.png */,
+				983CA44A16F820D000E2723F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		983CA45E16F820D000E2723F /* SocialyteTests */ = {
+			isa = PBXGroup;
+			children = (
+				983CA46416F820D000E2723F /* SocialyteTests.h */,
+				983CA46516F820D000E2723F /* SocialyteTests.m */,
+				983CA45F16F820D000E2723F /* Supporting Files */,
+			);
+			path = SocialyteTests;
+			sourceTree = "<group>";
+		};
+		983CA45F16F820D000E2723F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983CA46016F820D000E2723F /* SocialyteTests-Info.plist */,
+				983CA46116F820D000E2723F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983CA43016F820D000E2723F /* Socialyte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983CA46916F820D000E2723F /* Build configuration list for PBXNativeTarget "Socialyte" */;
+			buildPhases = (
+				983CA42D16F820D000E2723F /* Sources */,
+				983CA42E16F820D000E2723F /* Frameworks */,
+				983CA42F16F820D000E2723F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socialyte;
+			productName = Socialyte;
+			productReference = 983CA43116F820D000E2723F /* Socialyte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983CA45616F820D000E2723F /* SocialyteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983CA46C16F820D000E2723F /* Build configuration list for PBXNativeTarget "SocialyteTests" */;
+			buildPhases = (
+				983CA45216F820D000E2723F /* Sources */,
+				983CA45316F820D000E2723F /* Frameworks */,
+				983CA45416F820D000E2723F /* Resources */,
+				983CA45516F820D000E2723F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983CA45D16F820D000E2723F /* PBXTargetDependency */,
+			);
+			name = SocialyteTests;
+			productName = SocialyteTests;
+			productReference = 983CA45716F820D000E2723F /* SocialyteTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983CA42916F820D000E2723F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brandon Smith";
+			};
+			buildConfigurationList = 983CA42C16F820D000E2723F /* Build configuration list for PBXProject "Socialyte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 983CA42816F820D000E2723F;
+			productRefGroup = 983CA43216F820D000E2723F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983CA43016F820D000E2723F /* Socialyte */,
+				983CA45616F820D000E2723F /* SocialyteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983CA42F16F820D000E2723F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA43F16F820D000E2723F /* InfoPlist.strings in Resources */,
+				983CA44716F820D000E2723F /* Default.png in Resources */,
+				983CA44916F820D000E2723F /* Default@2x.png in Resources */,
+				983CA44B16F820D000E2723F /* Default-568h@2x.png in Resources */,
+				983CA44E16F820D000E2723F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983CA45416F820D000E2723F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA46316F820D000E2723F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		983CA45516F820D000E2723F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983CA42D16F820D000E2723F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA44116F820D000E2723F /* main.m in Sources */,
+				983CA44516F820D000E2723F /* AppDelegate.m in Sources */,
+				983CA45116F820D000E2723F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983CA45216F820D000E2723F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CA46616F820D000E2723F /* SocialyteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983CA45D16F820D000E2723F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983CA43016F820D000E2723F /* Socialyte */;
+			targetProxy = 983CA45C16F820D000E2723F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983CA43D16F820D000E2723F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983CA43E16F820D000E2723F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		983CA44C16F820D000E2723F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983CA44D16F820D000E2723F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		983CA46116F820D000E2723F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983CA46216F820D000E2723F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983CA46716F820D000E2723F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		983CA46816F820D000E2723F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		983CA46A16F820D000E2723F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
+				INFOPLIST_FILE = "Socialyte/Socialyte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		983CA46B16F820D000E2723F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
+				INFOPLIST_FILE = "Socialyte/Socialyte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		983CA46D16F820D000E2723F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Socialyte.app/Socialyte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
+				INFOPLIST_FILE = "SocialyteTests/SocialyteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		983CA46E16F820D000E2723F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Socialyte.app/Socialyte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
+				INFOPLIST_FILE = "SocialyteTests/SocialyteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983CA42C16F820D000E2723F /* Build configuration list for PBXProject "Socialyte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983CA46716F820D000E2723F /* Debug */,
+				983CA46816F820D000E2723F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983CA46916F820D000E2723F /* Build configuration list for PBXNativeTarget "Socialyte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983CA46A16F820D000E2723F /* Debug */,
+				983CA46B16F820D000E2723F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		983CA46C16F820D000E2723F /* Build configuration list for PBXNativeTarget "SocialyteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983CA46D16F820D000E2723F /* Debug */,
+				983CA46E16F820D000E2723F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983CA42916F820D000E2723F /* Project object */;
+}
