@@ -27,7 +27,6 @@
 		983CA47516F822BF00E2723F /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 983CA47216F822BF00E2723F /* FacebookSDKResources.bundle */; };
 		983CA47616F822BF00E2723F /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 983CA47316F822BF00E2723F /* FBUserSettingsViewResources.bundle */; };
 		983CA47716F822BF00E2723F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983CA47416F822BF00E2723F /* Info.plist */; };
-		983CA47916F822EB00E2723F /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 983CA47816F822EB00E2723F /* FBUserSettingsViewResources.bundle */; };
 		983CA47E16F8235E00E2723F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA47B16F8235E00E2723F /* AdSupport.framework */; };
 		983CA47F16F8235E00E2723F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA47C16F8235E00E2723F /* Social.framework */; };
 		983CA48116F82A9900E2723F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA48016F82A9900E2723F /* Parse.framework */; };
@@ -40,6 +39,8 @@
 		983CA49116F82AFD00E2723F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA48816F82AFD00E2723F /* Security.framework */; };
 		983CA49216F82AFD00E2723F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA48916F82AFD00E2723F /* StoreKit.framework */; };
 		983CA49316F82AFD00E2723F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */; };
+		983CA49516F82BF200E2723F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA49416F82BF200E2723F /* iAd.framework */; };
+		983CA49616F82C5300E2723F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983CA47A16F8235E00E2723F /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +80,6 @@
 		983CA47216F822BF00E2723F /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		983CA47316F822BF00E2723F /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		983CA47416F822BF00E2723F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		983CA47816F822EB00E2723F /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		983CA47A16F8235E00E2723F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		983CA47B16F8235E00E2723F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		983CA47C16F8235E00E2723F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -93,6 +93,7 @@
 		983CA48816F82AFD00E2723F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		983CA48916F82AFD00E2723F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		983CA49416F82BF200E2723F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983CA49616F82C5300E2723F /* Accounts.framework in Frameworks */,
+				983CA49516F82BF200E2723F /* iAd.framework in Frameworks */,
 				983CA48B16F82AFD00E2723F /* AudioToolbox.framework in Frameworks */,
 				983CA48C16F82AFD00E2723F /* CFNetwork.framework in Frameworks */,
 				983CA48D16F82AFD00E2723F /* CoreLocation.framework in Frameworks */,
@@ -135,17 +138,6 @@
 		983CA42816F820D000E2723F = {
 			isa = PBXGroup;
 			children = (
-				983CA48216F82AFD00E2723F /* AudioToolbox.framework */,
-				983CA48316F82AFD00E2723F /* CFNetwork.framework */,
-				983CA48416F82AFD00E2723F /* CoreLocation.framework */,
-				983CA48516F82AFD00E2723F /* libz.1.1.3.dylib */,
-				983CA48616F82AFD00E2723F /* MobileCoreServices.framework */,
-				983CA48716F82AFD00E2723F /* QuartzCore.framework */,
-				983CA48816F82AFD00E2723F /* Security.framework */,
-				983CA48916F82AFD00E2723F /* StoreKit.framework */,
-				983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */,
-				983CA47B16F8235E00E2723F /* AdSupport.framework */,
-				983CA47C16F8235E00E2723F /* Social.framework */,
 				983CA43A16F820D000E2723F /* Socialyte */,
 				983CA45E16F820D000E2723F /* SocialyteTests */,
 				983CA43316F820D000E2723F /* Frameworks */,
@@ -165,9 +157,20 @@
 		983CA43316F820D000E2723F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				983CA48216F82AFD00E2723F /* AudioToolbox.framework */,
+				983CA48316F82AFD00E2723F /* CFNetwork.framework */,
+				983CA48416F82AFD00E2723F /* CoreLocation.framework */,
+				983CA48516F82AFD00E2723F /* libz.1.1.3.dylib */,
+				983CA48616F82AFD00E2723F /* MobileCoreServices.framework */,
+				983CA48716F82AFD00E2723F /* QuartzCore.framework */,
+				983CA48816F82AFD00E2723F /* Security.framework */,
+				983CA48916F82AFD00E2723F /* StoreKit.framework */,
+				983CA48A16F82AFD00E2723F /* SystemConfiguration.framework */,
+				983CA47B16F8235E00E2723F /* AdSupport.framework */,
+				983CA47C16F8235E00E2723F /* Social.framework */,
+				983CA49416F82BF200E2723F /* iAd.framework */,
 				983CA48016F82A9900E2723F /* Parse.framework */,
 				983CA47A16F8235E00E2723F /* Accounts.framework */,
-				983CA47816F822EB00E2723F /* FBUserSettingsViewResources.bundle */,
 				983CA47116F822BF00E2723F /* Resources */,
 				983CA46F16F8228600E2723F /* FacebookSDK.framework */,
 				983CA43416F820D000E2723F /* UIKit.framework */,
@@ -314,7 +317,6 @@
 				983CA47516F822BF00E2723F /* FacebookSDKResources.bundle in Resources */,
 				983CA47616F822BF00E2723F /* FBUserSettingsViewResources.bundle in Resources */,
 				983CA47716F822BF00E2723F /* Info.plist in Resources */,
-				983CA47916F822EB00E2723F /* FBUserSettingsViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +478,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
 				INFOPLIST_FILE = "Socialyte/Socialyte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Socialyte/Socialyte-Prefix.pch";
 				INFOPLIST_FILE = "Socialyte/Socialyte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -550,6 +554,7 @@
 				983CA46B16F820D000E2723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983CA46C16F820D000E2723F /* Build configuration list for PBXNativeTarget "SocialyteTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +563,7 @@
 				983CA46E16F820D000E2723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

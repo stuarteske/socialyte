@@ -16,6 +16,9 @@
     [Parse setApplicationId:@"d9BquvOx2AH2TvdvrpPYM4A6afhXJuJYVC29Se63"
                   clientKey:@"7d3J8WCJ3iWtJlzfOWTbc4USJTYN2P9oehJHPfXy"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    [testObject setObject:@"bar" forKey:@"foo"];
+    [testObject save];
     // Override point for customization after application launch.
     return YES;
 }
